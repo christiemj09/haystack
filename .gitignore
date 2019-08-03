@@ -1,0 +1,10 @@
+.creds
+creds
+decs
+input
+output
+tests/test.out
+*.pyc
+__pycache__
+*~
+.DS_Store
