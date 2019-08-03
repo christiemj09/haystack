@@ -1,0 +1,19 @@
+What to do here:
+
+Goal: Given a string, give file coordinates for occurrences of that string in a set of files.
+
+Start with CSVs. File coordinate system: (row offset, column offset, cell offset).
+
+Note: Can imagine other file coordinate systems for other file types. For example, you
+can imagine there being hierarchical coordinates for hierarchical file types like XML or HTML.
+Like XPATH expressions are a form of file coordinates, maybe even (XPATH expression, element offset).
+
+One file coordinate system that all file types share is the 1-D byte offset coordinate system.
+
+Start with a Python script that does this, then see if you can modify it for querying in PostgreSQL.
+For PostgreSQL, want files to be loaded as text dumps in a table, or maybe even chunks of files.
+Have helper tables that hold indexing information for scanning files/translating between coordinate systems?
+
+Seems like that would make some sense for performance, but maybe just start with scanning files straight-up
+at first; no chunks, either.
+
