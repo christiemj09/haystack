@@ -1,0 +1,5 @@
+{"look": ["here", "is", {"some": "nested"}, "data"]}
+{"this": 1, "is": 2, "a": 3, "simple": 4, "document": 5}
+{"really": {"really": {"really": {"really": "nested"}}}, "conclusion": "hooray!"}
+["also", ["here", ["are", ["some", ["more", ["lists"]]]]]]
+[{"mix": "and"}, "match"]

@@ -1,1 +1,1 @@
-Give file coordinates for occurrences of a string in a set of files.
+Generate addresses for fields in a file.
